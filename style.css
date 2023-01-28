@@ -1,6 +1,49 @@
 /*font-family: 'Island Moments', cursive;
-font-family: 'Poppins', sans-serif;*/ 
+font-family: 'Poppins', sans-serif;*/
+:root {
+  --background-color: #f9f7fe;
+  --btn-color: #6c63ff;
+  --heading-font-family: "Poppins", sans-serif;
+}
 
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: var(--heading-font-family);
+}
 h1 {
-font-family: 'Poppins', sans-serif;
+  font-family: var(--heading-font-family);
+  font-size: 96px;
+}
+
+.hat {
+  background-color: var(--background-color);
+  text-align: center;
+  padding: 160px 20px;
+}
+
+.hat h2 {
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 2;
+  color: #272142;
+}
+
+.hat p {
+  font-family: var(--heading-font-family);
+  font-size: 36px;
+  font-weight: bold;
+  margin: 0;
+}
+
+.btn-brand {
+  color: white;
+  background-color: var(--btn-color);
+  border-radius: 4px;
+  font-size: 18px;
+  line-height: 27px;
+  padding: 15px 30px;
 }
