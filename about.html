@@ -28,6 +28,34 @@
     <title>About me</title>
   </head>
   <body>
+     <div class="container">
+      <nav class="d-flex justify-content-between">
+        <a href="/index.html" title="Homepage">
+          <img
+            src="images/logo.png"
+            alt="logo"
+            class="logo d-none d-md-block" />
+          <img
+            src="images/logo-small.png"
+            alt="logo"
+            class="logo d-block d-md-none"
+        /></a>
+        <ul>
+          <li>
+            <a href="/index.html" title="Homepage">Home</a>
+          </li>
+          <li class="active">
+            <a href="/about.html" title="About_Me_Page">About</a>
+          </li>
+          <li>
+            <a href="/work.html" title="Workpage">Work</a>
+          </li>
+          <li>
+            <a href="/contact.html" title="Contactpage">Contact</a>
+          </li>
+        </ul>
+      </nav>
+    </div>
     <div class="content-container container">
         <div class="row">
             <div class="col-lg-6">
@@ -40,7 +68,7 @@
       everything is well explained, homework and deadlines are good for keep
       focus
     </p>
-    <a href="" class="btn btn-brand">See my projects</a> 
+    <a href="/work.html" class="btn btn-brand">See my projects</a> 
     </div>
     </div>
     <div class="col-lg-6">
@@ -48,5 +76,34 @@
     </div>
     </div>
     </div>
+     <footer class="container">
+        <div class="contact-box d-flex justify-content-between mb-5 d-none d-md-flex">
+          <div>
+            <h4>Work Inquiry</h4>
+            <p class="text-muted">Let's work together</p>
+          </div>
+          <div><a href="/contact.html" class="btn btn-brand" title="Contact me">Contact me</a></div>
+        </div>
+        <div class="d-flex justify-content-center mb-5">
+          <a href="mailto:Hanna@gmail.com" class="email-link" title="Mail me"
+            >Hanna@gmail.com</a
+          >
+        </div>
+        <div class="social-links d-flex justify-content-center mb-5">
+          <a href="http://www.instagram.com/Hannah2" target="_blank" title="Instagram profile">
+            <i class="fa-brands fa-instagram"></i
+          ></a>
+          <a href="http://www.github.com/Hanna222" target="_blank" title="Github profile">
+            <i class="fa-brands fa-github"></i
+          ></a>
+          <a href="http://www.facebook.com/Hanna" target="_blank" title="Facebook profile">
+            <i class="fa-brands fa-facebook"></i
+          ></a>
+        </div>
+        <p class="text-center mt-5">This project was coded by Hanna, you can find it here: 
+          <a href="https://github.com/Gabunya/My-Portfolio-Project" class="text-decoration-none" target="_blank"> GitHub</a>
+        </p>
+      </footer>
+    
   </body>
 </html>

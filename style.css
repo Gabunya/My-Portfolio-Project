@@ -99,7 +99,7 @@ h4 {
 .hat {
   background-color: var(--background-color);
   text-align: center;
-  padding: 160px 20px;
+  padding: 80px 20px;
 }
 
 .hat h2 {
@@ -159,9 +159,7 @@ p {
 }
 
 @media (max-width: 900px) {
-  .hat {
-    padding: 80px 20px;
-  }
+  
   h1 {
     font-size: 44px;
     line-height: 1.2;
@@ -198,7 +196,7 @@ p {
 }
 
 .content-container {
-  padding: 160px 20px;
+  padding: 60px 20px;
 }
 
 .content {
