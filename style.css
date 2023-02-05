@@ -42,6 +42,42 @@ nav a:hover {
   transition: all 150ms ease-in-out;
 }
 
+footer .contact-box {
+  background-color: var(--background-color);
+  padding: 30px 120px;
+  border-radius: 10px;
+}
+
+footer .contact-box p {
+  margin: 0;
+}
+
+footer .email-link {
+  text-decoration: none;
+  color: black;
+  font-size: 24px;
+  
+}
+
+footer .email-link:hover {
+  color: var(--btn-color);
+}
+
+footer .social-links a {
+margin: 0 20px;
+color: var(--btn-color);
+background-color: var(--background-color);
+padding: 10px 14px;
+border-radius: 50%;
+font-size: 18px;
+transition: all 150ms ease-in-out;
+}
+
+footer .social-links a:hover {
+  color: white;
+  background-color: var(--btn-color);
+}
+
 h1,
 h2,
 h3,
@@ -54,6 +90,10 @@ h1 {
   font-family: var(--heading-font-family);
   font-size: 96px;
   line-height: 1.5;
+}
+
+h4 {
+  font-size: 48px;
 }
 
 .hat {
@@ -85,6 +125,11 @@ h1 {
   padding: 15px 30px;
 }
 
+.btn-brand:hover {
+  color: #272142;
+  background-color: var(--btn-color);
+}
+
 h2 {
   font-size: 64px;
 }
@@ -103,6 +148,10 @@ p {
   line-height: 27px;
   padding: 15px 30px;
   text-decoration: none;
+}
+
+.btn-brand-main:hover {
+  color: #272142;
 }
 
 .project-description {
@@ -129,6 +178,10 @@ p {
   h2 {
     font-size: 44px;
   }
+  
+  h4 {
+    font-size: 26px;
+  }
 
   .project-description {
     padding: 0;
@@ -139,6 +192,7 @@ p {
     text-align: center;
     padding: 0;
   }
+
 
   
 }
