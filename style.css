@@ -6,6 +6,42 @@ font-family: 'Poppins', sans-serif;*/
   --heading-font-family: "Poppins", sans-serif;
 }
 
+.logo {
+  max-height: 40px;
+}
+
+nav {
+  padding: 20px 0;
+
+}
+
+nav ul {
+  margin: 0;
+  padding: 0;
+}
+
+nav li {
+  display: inline;
+  list-style: none;
+  line-height: 42px;
+  margin-left: 15px;
+}
+
+nav a {
+text-decoration: none;
+color: #272142;
+font-weight: bold;
+}
+
+nav li.active a {
+  color: var(--btn-color);
+}
+
+nav a:hover {
+  color: var(--btn-color);
+  transition: all 150ms ease-in-out;
+}
+
 h1,
 h2,
 h3,
@@ -103,6 +139,8 @@ p {
     text-align: center;
     padding: 0;
   }
+
+  
 }
 
 .content-container {
